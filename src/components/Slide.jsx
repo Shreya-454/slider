@@ -37,6 +37,8 @@ const Slide = () => {
   focusOnSelect={true}
   centerMode={true}
   arrows={true}
+  autoplay={true}
+  autoplaySpeed={3000}
   responsive={[
     {
       breakpoint: 1000,
