@@ -7,3 +7,6 @@ import img6 from '../assets/images/webp/img6.webp'
 export const SLIDER_LIST = [
     img1,img2,img3,img4,img5,img6
 ]
+ export const TAB_LIST = [
+    'Tab 1', 'Tab 2', 'Tab 3', 'Tab 4', 'Tab 5', 'Tab 6'
+ ]
