@@ -16,6 +16,6 @@ border:1px solid black !important}
     top: 50% !important;
     left: -10% !important;
 }
-#tabs ::-webkit-scrollbar{
+::-webkit-scrollbar{
     @apply !hidden;
   }
