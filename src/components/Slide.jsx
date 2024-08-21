@@ -16,6 +16,7 @@ const Slide = () => {
     }, []);
     return (
       <div className="container max-w-[1140px] mx-auto relative px-6">
+        <h1 className="text-5xl text-center text-blue-700 mb-5 font-semibold">Slider</h1>
         <div className="slider-for">
         <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)}
                     arrows={false}   slidesToShow={1}>
