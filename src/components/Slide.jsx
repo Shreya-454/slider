@@ -49,18 +49,18 @@ const Slide = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex justify-center space-x-4 w-full overflow-x-scroll" id='tabs'>
+      <div className="flex justify-center space-x-4 w-full" id='tabs'>
         {SLIDER_LIST.map((item, index) => (
           <div
             key={index}
             onClick={() => handleTabClick(index)}
             className={`cursor-pointer border-4 border-solid rounded duration-300 ${
               activeTab === index
-                ? 'border-purple-900 opacity-100'
+                ? 'border-purple-900 opacity-100 scale-110'
                 : 'border-black opacity-60'
             }`}
           >
-            <img src={item} alt={`Tab ${index}`} className="w-[200px] h-[100px]" />
+            <img src={item} alt={`Tab ${index}`} className="w-[200px] h-[100px] " />
           </div>
         ))}
       </div>
